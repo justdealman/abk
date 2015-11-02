@@ -175,6 +175,17 @@ header .menu-open {
 	margin:0 0 0 -510px;
 	background:url('../img/menu_open.png') no-repeat center center;
 }
+header .menu-open:after {
+	content:'Меню';
+	position:absolute;
+	left:55px;
+	top:0;
+	color:#ffb936;
+	font-size:24px;
+	line-height:24px;
+	font-weight:bold;
+	padding:9px 6px 10px 12px;
+}
 header .logo {
 	position:absolute;
 	left:50%;
@@ -720,9 +731,9 @@ header .mouse-icon {
 	color:#ffffff;
 	background:#f2b23a;
 }
-/*.feedback .form button.done {
-	color:#a1aabf;
-	background:#565e70;
+.feedback .form button.done {
+	color:rgba(255,255,255,0.5);
+	background:rgba(255,185,54,0.5);
 }
 .feedback .form h6 {
 	display:inline-block;
@@ -734,7 +745,7 @@ header .mouse-icon {
 	padding:13px 0 12px 21px;
 	margin:0 0 20px 19px;
 	background:url('../img/done_icon.png') no-repeat left 16px;
-}*/
+}
 .clear {
 	clear:both;
 	overflow:hidden;
